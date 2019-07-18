@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 	<title>Hello Coursera</title>
 	<style>
 		h1 {
   			color: blue;
   			font-family: verdana;
-  			font-size: 300%;
+  			font-size:3vw
 		}
 		p  {
   			color: red;
@@ -97,6 +98,7 @@
   <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
 </div>
 
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="max-width:100%;height:auto;">
 
 <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
 
@@ -104,7 +106,14 @@
 	<a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
 </p>
  
+<h2>Use JavaScript to Change Text</h2>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
 
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
 
 <h1 style="color:blue;">This is a heading</h1>
 <p style="color:red;">This is a paragraph.</p>
@@ -145,6 +154,11 @@
   <h2>Tokyo</h2>
   <p>Tokyo is the capital of Japan.</p>
 </div>
+
+
+
+<h2>The var Element</h2>
+<p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
 
 
 </body>
