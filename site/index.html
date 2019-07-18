@@ -2,12 +2,150 @@
 <html>
 <head>
 	<title>Hello Coursera</title>
+	<style>
+		h1 {
+  			color: blue;
+  			font-family: verdana;
+  			font-size: 300%;
+		}
+		p  {
+  			color: red;
+  			font-family: courier;
+ 			font-size: 160%;
+ 			border: 1px solid powderblue;
+  			padding: 30px;
+		}
+		a:link {
+  			color: green; 
+  			background-color: transparent; 
+  			text-decoration: none;
+		}
+
+		a:visited {
+		  	color: pink;
+		  	background-color: transparent;
+		  	text-decoration: none;
+		}
+
+		a:hover {
+		  	color: red;
+		  	background-color: transparent;
+		  	text-decoration: underline;
+		}
+
+		a:active {
+		 	color: yellow;
+		  	background-color: transparent;
+		  	text-decoration: underline;
+		}
+		table, th, td {
+  			border: 1px solid black;
+  			border-collapse: collapse;
+		}
+
+
+		ul {
+		  	list-style-type: none;
+		  	margin: 0;
+		  	padding: 0;
+		 	overflow: hidden;
+		 	background-color: #333333;
+		}
+
+		li {
+		  	float: left;
+		}
+
+		li a {
+		  	display: block;
+		  	color: white;
+		  	text-align: center;
+		  	padding: 16px;
+		  	text-decoration: none;
+		}
+
+		li a:hover {
+		  	background-color: #111111;
+		}
+
+		.cities {
+  			background-color: black;
+  			color: white;
+  			margin: 20px;
+  			padding: 20px;
+		}
+
+
+	</style>
 </head>
 <body>
 <h1> Hello Coursera</h1>
 
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
+
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+
+<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+
+<p>
+	<a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a>
+</p>
+ 
+
+
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+<h1>My <span style="color:red">Important</span> Heading</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+
+
+<div class="cities">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="cities">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="cities">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
 
 </body>
 
