@@ -2,11 +2,49 @@
 <html>
 <head>
 	<title>HTML Forms</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		ul {
+		  	list-style-type: none;
+		  	margin: 0;
+		  	padding: 5px 5px 5px 7px;
+		 	overflow: hidden;
+		 	background-color: #333333;
+		 	width: 560px;
+		 			}
+
+		li {
+		  	float: left;
+		  	background-color: blue;
+		  	padding: 1px;
+		  	border: 2px solid red;
+		}
+
+		li a {
+		  	display: block;
+		  	color: white;
+		  	text-align: center;
+		  	padding: 16px;
+		  	text-decoration: none;
+		}
+
+		li a:hover {
+		  	background-color: #111111;
+		}
+	</style>
 </head>
 <body>
 
-<h1>HTML Forms</h1>
-
+<h1 id="top">HTML Forms</h1>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="form.html">Forms</a></li>
+  <li><a href="w3_css.html">W3 CSS example</a></li>
+  <li><a href="bootstrap_css.html">BootStrap CSS</a></li>
+  <li><a href="test_code.html">Test Code</a></li>
+</ul>
 <h2>Password field</h2>
 <p>The <strong>input type="password"</strong> defines a password field:</p>
 
@@ -33,7 +71,7 @@
 <br>
 <br>
 
-<form action="/action_page.php" autocomplete="on">
+<form action="test_code.html" autocomplete="on">
   <fieldset>
     <legend>Personal information:</legend>
     First name:<br>
@@ -56,7 +94,7 @@
 </select>
 
 
-<form action="/action_page.php">
+<form action="test_code.html">
   <textarea name="message" style="width:200px; height:60px;">The cat was playing in the garden.</textarea>
   <br>
   <input type="submit">
@@ -66,7 +104,7 @@
 <h2>The datalist Element</h2>
 <p>The datalist element specifies a list of pre-defined options for an input element.</p>
 
-<form action="/action_page.php">
+<form action="test_code.html">
   <input list="browsers" name="browser">
   <datalist id="browsers">
     <option value="Internet Explorer">
@@ -83,7 +121,7 @@
 <h2>The output Element</h2>
 <p>The output element represents the result of a calculation.</p>
 
-<form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)" target="_blank">
+<form action="test_code.html" oninput="x.value=parseInt(a.value)+parseInt(b.value)" target="_blank">
   0
   <input type="range" id="a" name="a" value="50">
   100 +
@@ -100,7 +138,7 @@
 <h2>Date Field Restrictions</h2>
 <p>Use the min and max attributes to add restrictions to dates:</p>
 
-<form action="/action_page.php">
+<form action="test_code.html">
 
 Enter a date before 1980-01-01:<br>
 <input type="date" name="bday" max="1979-12-31"><br><br>
@@ -120,6 +158,6 @@ Quantity:
 <input type="submit"> 
 </form>
 
-
+<a href="#top">Back to Top</a>
 </body>
 </html>

@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <style type="text/css">
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111111;
+    }
+  </style>
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
 <body>
 
+
 <div class="w3-container w3-green">
-  <h1>W3Schools Demo</h1> 
+  <h1 id="top">W3Schools Demo</h1> 
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="form.html">Forms</a></li>
+  <li><a href="w3_css.html">W3 CSS example</a></li>
+  <li><a href="bootstrap_css.html">BootStrap CSS</a></li>
+  <li><a href="test_code.html">Test Code</a></li>
+</ul>
   <p>Resize this responsive page!</p> 
 </div>
 
@@ -32,6 +67,6 @@
     and the most populous metropolitan area in the world.</p>
   </div>
 </div>
-
+<a href="#top">Back to Top</a>
 </body>
 </html>
